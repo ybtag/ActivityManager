@@ -2,6 +2,10 @@
 
 Discover activities of installed applications, run them, and create shortcuts
 
+This branch uses the BadParcel vulnerability (CVE-2023-20963) to launch all activities without root access.
+
+Credits https://github.com/davinci1010/pinduoduo_backdoor/
+
 Features:
 ----------
 * Launch exported activities
@@ -35,19 +39,7 @@ Screenshots:
         alt="Screenshot" width="30%" />
 </div>
 
-Installing:
-----------
-Pre-compiled binaries are available as [releases assets](https://github.com/sdex/ActivityManager/releases).
-
-Also available on F-droid:
-<div style="display:flex;">
-    <a href="https://f-droid.org/packages/com.activitymanager/">
-        <img alt="Get it on F-Droid" height="80"
-            src="docs/graphics/logos/f-droid-badge.png"/>
-    </a>
-</div>
-
-Or build from the repo directly:
+Build from the repo directly:
 ```
 ./gradlew assemble
 ```
