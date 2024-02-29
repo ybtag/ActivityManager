@@ -2,7 +2,7 @@
 
 Discover activities of installed applications, run them, and create shortcuts
 
-The BadParcel branch uses the BadParcel vulnerability (CVE-2023-20963) to launch all activities without root access.
+This branch uses the BadParcel vulnerability (CVE-2023-20963) to launch all activities without root access.
 
 Credits https://github.com/davinci1010/pinduoduo_backdoor/
 
