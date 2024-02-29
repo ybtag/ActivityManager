@@ -26,7 +26,7 @@ fun Activity.launchActivity(
 ) {
     if (useParams) {
         IntentBuilderActivity.start(this, model)
-    } else if (!model.exported || useRoot) {
+    } else if (useRoot) {
         launchActivityWithRoot(this, model.componentName)
     } else {
         IntentUtils.launchActivity(this, model.componentName, model.name)

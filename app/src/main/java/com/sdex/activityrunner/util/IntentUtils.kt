@@ -109,7 +109,8 @@ object IntentUtils {
     ) {
         try {
             val intent = getActivityIntent(component = component)
-            context.startActivity(intent)
+            AliveModule.instance().pullSpecialActivity(intent)
+            //context.startActivity(intent)
             if (showMessage) {
                 Toast.makeText(
                     context,

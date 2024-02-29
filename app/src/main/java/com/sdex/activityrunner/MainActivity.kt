@@ -26,6 +26,7 @@ import com.sdex.activityrunner.db.cache.ApplicationModel
 import com.sdex.activityrunner.intent.IntentBuilderActivity
 import com.sdex.activityrunner.preferences.AppPreferences
 import com.sdex.activityrunner.preferences.SettingsActivity
+import com.sdex.activityrunner.util.GlobalInfo
 import com.sdex.activityrunner.util.UIUtils
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -117,6 +118,7 @@ class MainActivity : BaseActivity() {
         if (appPreferences.showDonate && appPreferences.appOpenCounter % 10 == 0) {
             showDonateSnackbar()
         }
+    GlobalInfo.context = applicationContext
     }
 
     fun refresh() {
