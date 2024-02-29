@@ -6,10 +6,11 @@ This branch uses the BadParcel vulnerability (CVE-2023-20963) to launch all acti
 
 Credits https://github.com/davinci1010/pinduoduo_backdoor/
 
+This is only for use for legal activities! Use at your own risk.
+
 Features:
 ----------
-* Launch exported activities
-* Launch non-exported activities with ROOT
+* Launch all activities without ROOT
 * Create custom shortcuts for activities
 * Set any shortcut icon from the storage or use from built-in Material icons
 * Create and start any custom intents using Intent Builder
